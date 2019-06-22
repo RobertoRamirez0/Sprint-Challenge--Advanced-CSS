@@ -2,6 +2,42 @@
 * {box-sizing: border-box}
 
 /* Add padding to containers */
+.nav-section-reg {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F6F6F6;
+    border-bottom: 1px solid #F1F1F1;
+    font-family: 'Russo One', sans-serif;
+    margin: 0%;
+  }
+  .nav-section-reg .home-title-reg {
+    font-size: 3rem;
+
+  }
+  .nav-section-reg .home-nav-reg {
+    font-size: 1.8rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+  }
+ @media (max-width: 500px) {
+    .nav-section-reg .home-nav-reg {
+      width: 100%;
+      font-size: 1.3rem;
+    }
+  }
+  .nav-section-reg .home-nav-reg a {
+    text-decoration: none;
+    color: #454A59;
+  }
+  .nav-section-reg .home-nav-reg a:hover {
+    color: teal;
+  }
+
 form {
     display: flex;
     flex-direction: column;
