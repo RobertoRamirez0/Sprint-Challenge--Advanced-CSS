@@ -33,15 +33,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
-
+    Q1 Answer: An adaptive website will change its layout based on fixed variables that are provided to it, whereas responsive would "flow" and change according to the screen size and space available.
 2. Describe what it means to be mobile first vs desktop first.
-
+    Q2 Answer: Mobile first means you are designing for mobile phone screen sixes first and changing your styling as the display gets bigger. Desktop first is the opposite, where you design for desktop screen sizes first and change your design as the screen size decreases.
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+    Q3 Answer: Given that most browsers and devices set a default font size of 16px, 62.5% allows us to set the root font size to 10px so that it easier to refer to the size by the power of ten, using the rem styling selector.
 4. How would you describe preprocessing to someone new to CSS?
-
+    Q4 Answer: Prepocessing allows us to use a more developer friendly format of CSS, it gives us tools that makes our code easier to read not only for the developer styling the website but for others looking at our code as well. It is also a huge factor in helping the developer not retype the same code over several times.(DRY)
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-
+    Q5 Answer: My favorite concept of prepocessing is being able to seperate our styling pages using less. It allows us to be a lot more organized. The thing giving me trouble is how new the concept is to me, I just need to get used to it!
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
