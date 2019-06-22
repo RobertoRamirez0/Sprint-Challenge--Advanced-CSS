@@ -1,1 +1,34 @@
 // Navigation code here
+.nav-section {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: @wild-sand;
+    border-bottom: 1px solid @sea-shell;
+    .home-title {
+        font-size: 4.5rem;
+    }
+
+    .home-nav {
+        font-size: 1.8rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+
+        @media @phone {
+            width: 90%;
+        }
+
+        a {
+            text-decoration: none;
+            color: @nav-font;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
