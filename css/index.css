@@ -3,6 +3,10 @@
   padding-right: 10px;
   padding-left: 10px;
 }
+.font-style {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -297,6 +301,7 @@ footer {
   padding: 10px;
   border-radius: 10px;
   color: white;
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -309,6 +314,9 @@ footer {
   background: teal;
   color: black;
   cursor: pointer;
+}
+.home .walk .walk-text a {
+  text-decoration: none;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text {

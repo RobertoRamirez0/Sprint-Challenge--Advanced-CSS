@@ -1,5 +1,5 @@
 // Mixins Here
-.btn-style(@font-size, @width, @text-align, @background, @padding, @border-radius, @color) {
+.btn-style(@font-size, @width, @text-align, @background, @padding, @border-radius, @color, @text-decoration) {
     font-size: @font-size;
     width: @width;
     text-align: @text-align;
@@ -7,10 +7,15 @@
     padding: @padding;
     border-radius: @border-radius;
     color: @color;
+    text-decoration: @text-decoration;
 }
 
 .img-phone-responsive {
     align-self: center;
     padding-right: 10px;
     padding-left: 10px;
+}
+.font-style {
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
 }
